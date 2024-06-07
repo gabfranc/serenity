@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spa and Beauty Blogs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  <script src="/blog.js" defer></script>
+  <link rel="stylesheet" href="/blog.css">
+</head>
+
+<body>
+  <!--- DONE: Create Nav Bar  -->
+  <nav>
+    <ul>
+      <a href="/">ABOUT</a>
+      <a href="/">BOOK</a>
+      <a href="/blog.html">BLOG</a>
+      <a href="/">CONTACT</a>
+    </ul>
+  </nav>
+  <main class="container">
+    <h1>Spa and Beauty Blog</h1>
+    <form id="blog-form">
+      <input type="text" id="title" placeholder="Title" required>
+      <textarea id="content" rows="5" placeholder="Content" required></textarea>
+      <input type="text" id="author" placeholder="Author">
+      <button type="submit">Add Blog Post</button>
+    </form>
+    <div id="blog-posts"></div>
+  </main>
+
+</body>
+
+</html>
